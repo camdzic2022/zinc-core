@@ -1,0 +1,57 @@
+SETTINGS:
+  ERROR: "&7[&cError&7] &c"
+  OFFLINE: "Player is offline."
+
+MESSAGES:
+  GAMEMODE:
+    UPDATED: "&7[&6&lServer&7] &eYour gamemode has been updated to &6<gamemode>&e."
+    PLAYER-UPDATED: "&7[&6&lServer&7] &6<player>'s &egamemode has been updated to &6<gamemode>&e."
+    ALREADY: "&7[&6&lServer&7] &eYour gamemode is already &6<gamemode>&e."
+    PLAYER-ALREADY: "&cPlayer's gamemode is already &4<gamemode>&c."
+    USAGE:
+      - "&7&m----------------&7[ &6&lGAMEMODE MANAGER &7]&7&m----------------"
+      - "&e/gamemode 1 &7- &fgamemode creative."
+      - "&e/gamemode 2 &7- &fgamemode adventure."
+      - "&e/gamemode 0 &7- &fgamemode survival."
+      - "&7&m----------------&7[ &6&lGAMEMODE MANAGER &7]&7&m----------------"
+  CHATMANAGER:
+    CLEARED-BY: "&7[&6&lServer&7] &eChat has been cleared by &6<player>&e."
+    MUTED-BY: "&7[&6&lServer&7] &eChat has been muted by &6<player>&e."
+    UNMUTED-BY: "&7[&6&lServer&7] &eChat has been unmuted by &6<player>&e."
+    MUTED-ALREADY: "Chat is already muted."
+    NOT-MUTED: "Chat is not muted."
+    SORRY-MUTED: "Chat is currently muted."
+    USAGE:
+      - "&7&m----------------&7[ &6&lCHAT MANAGER &7]&7&m----------------"
+      - "&e/chat clear &7- &fclear chat."
+      - "&e/chat mute &7- &fmute chat."
+      - "&e/chat unmute &7- &funmute chat."
+      - "&7&m----------------&7[ &6&lCHAT MANAGER &7]&7&m----------------"
+  FLIGHT:
+    ENABLED: "&7[&6&lServer&7] &eYour flight mode is enabled."
+    PLAYER-ENABLED: "&7[&6&lServer&7] &eYou enabled flight mode for player &6<player>&e."
+    DISABLED: "&7[&6&lServer&7] &eYour flight mode is disabled."
+    PLAYER-DISABLED: "&7[&6&lServer&7] &eYou disabled flight mode for player &6<player>&e."
+  FEED:
+    FEEDED: "&7[&6&lServer&7] &eYou feeded yourself."
+    PLAYER-FEEDED: "&7[&6&lServer&7] &eYou feeded player &6<player>&e."
+  HEAL:
+    HEALED: "&7[&6&lServer&7] &eYou healed yourself."
+    PLAYER-HEALED: "&7[&6&lServer&7] &eYou healed player &6<player>&e."
+  INVSEE:
+    INSPECTING: "&7[&6&lServer&7] &eYou're now viewing &6<player>'s &einventory."
+    USAGE: "/invsee <player>"
+  GIVE:
+    GAVE: "&7[&6&lServer&7] &eYou gave &6<player> &eitem &6<item> &eof amount &6<amount>&e."
+    USAGE: "/give <player> <amount> <item>"
+  TELEPORT:
+    TO-PLAYER: "&7[&6&lServer&7] &eYou have been teleported to player &6<player>&e."
+    PLAYER-TO-TARGET: "&7[&6&lServer&7] &eYou have teleported player &6<target> &eto &6<player>&e."
+    PLAYER-OFFLINE: "<player> is offline."
+    USAGE: "/teleport <player>"
+  TPHERE:
+    TO-PLAYER: "&7[&6&lServer&7] &eYou have teleported &6<target>&e to yourself."
+    TO-TARGET: "&7[&6&lServer&7] &eYou have been teleported to player &6<player>&e."
+    USAGE: "/tphere <player>"
+  DAY: "&7[&6&lServer&7] &eYou set time of the world to day."
+  NIGHT: "&7[&6&lServer&7] &eYou set time of the world to night."

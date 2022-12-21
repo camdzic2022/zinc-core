@@ -1,0 +1,27 @@
+name: Zinc
+version: '${project.version}'
+main: me.konekting.zinc.Zinc
+api-version: 1.8
+authors: [ connetinq ]
+description: Punishment, Ranks, Essentials
+commands:
+  gamemode:
+    aliases: [gm]
+  gmc:
+  gms:
+  gma:
+  fly:
+    aliases: [flight]
+  heal:
+  feed:
+  chat:
+  day:
+    aliases: [setday, settimeday]
+  night:
+    aliases: [setnight, settimenight]
+  invsee:
+  give:
+  teleport:
+    aliases: [tp]
+  teleporthere:
+    aliases: [tphere, s]
